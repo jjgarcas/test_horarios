@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset=utf-8>
+  <title>Test Horarios</title>
+  <link rel="stylesheet" href="style.css"></style>
+  
+  <script src="horarios.js"></script>
+  <script src="index.js"></script>
+</head>
+<body onload="init()">
+    <div class="container">
+        <div class="main">
+            <div class="counter">
+                <div class="good">Bien: <span id="counter_good">0 (0%)</span></div>
+                <div class="bad">Mal <span id="counter_bad">0 (0%)</span></div>
+            </div>
+            <div id="schedule"></div>
+            <div id="next" class="hidden">Siguiente</div>
+            <div id="reveal" class="hidden">Ver fallos</div>
+        </div>
+        <div id="choices"></div>
+    </div>
+    <div id="wrongAnswersPage" class="hidden">
+        <div id="wrongAnswersContainer"></div>
+        <div id="restart">Empezar de nuevo</div>
+    </div>
+    <div id="start">
+        <div id="startButton">Empezar</div>
+    </div>
+</body>
+</html>
