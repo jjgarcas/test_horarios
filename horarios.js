@@ -34,7 +34,7 @@ const horarios = [
         ]
     },
     {
-        museo: 'ANTROPOLOGÍA',
+        museo: 'ANTROPOLOGÍA Y SOROLLA',
         horario: [
             {
                 title: 'Martes - Sábado',
@@ -103,19 +103,6 @@ const horarios = [
             {
                 title: 'Noviembre - Abril',
                 value: '9:30 - 18:30'
-            },
-            {
-                title: 'Domingos y festivos',
-                value: '10:00 - 15:00'
-            }
-        ]
-    },
-    {
-        museo: 'SOROLLA',
-        horario: [
-            {
-                title: 'Martes - Sábado',
-                value: '9:30 - 20:00'
             },
             {
                 title: 'Domingos y festivos',
