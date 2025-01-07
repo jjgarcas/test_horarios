@@ -25,7 +25,7 @@ const horarios = [
             },
             {
                 title: 'Jueves',
-                value: '9:30 - 19:00'
+                value: '9:30 - 19:00 (horario continuado)'
             },
             {
                 title: 'Domingos y festivos',
